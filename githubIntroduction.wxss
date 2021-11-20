@@ -1,0 +1,47 @@
+page{
+    height:100%;
+}
+.backpage{
+    display:flex;
+    height: 100%;
+    width: 100%;
+    background-image: url('https://7368-shaky-2gd38t77a0797611-1308369320.tcb.qcloud.la/github%E4%BB%8B%E7%BB%8D%E8%83%8C%E6%99%AF.jpg?sign=54ec224a2a9763e0b39d778f16c8753d&t=1637324054');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.part1{
+    font-size: 35rpx;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+    padding-left: 45rpx;
+    padding-right: 45rpx;
+    -webkit-animation: proRotate 0.8s ease-in-out 500ms alternate none 3;
+    animation: proRotate 0.8s ease-in-out 500ms alternate none 3;   
+}
+@-webkit-keyframes proRotate { 
+    0%{-webkit-transform:perspective(400px) rotateX(180deg);} 
+    100%{-webkit-transform:perspective(400px) rotateX(0deg);} 
+}
+@keyframes proRotate { 
+    0%{transform:perspective(400px) rotateX(180deg);} 
+    100%{transform:perspective(400px) rotateX(0deg);} 
+}
+
+.title{
+    font-size: 45rpx;
+    font-weight: bold;
+    margin-top:30rpx;
+    margin-left:30rpx;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: calc(100% - 100rpx);
+    overflow-y: scroll;
+}
+
+.part2{
+    font-size: 35rpx;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+   padding-left: 45rpx;
+   padding-right: 45rpx;
+}

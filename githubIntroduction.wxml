@@ -1,0 +1,23 @@
+ <!--背景-->
+ <view class="backpage" >
+ <view class = "title">
+ <text>GitHub Introduction</text>
+
+  <view class ="part1">
+   <text>
+   GitHub is the largest code hosting platform in the world, with over 50 million developers using it.GitHub Chinese community is a Chinese community platform dedicated to sharing and spreading quality open source projects on GitHub.
+   </text>
+  </view>
+<view class ="part2">
+<text>
+1. Complete support for Markdown language and Emoji
+2. Support to directly copy pictures to the page, will automatically upload pictures (very good function, Zhihu also support)
+3. Better support for Mobile. Although Github does not have a mobile client, most developers will share their blogs through weibo, so after clicking on it, it can be accessed in the mobile browser.
+4. You can make comments like this using github's native features
+5. Support @user function
+6. Support tags, of course, in your Repository
+7. Emphasizing the personal fits Hacker's reputation/accomplishment instincts
+8. The functional design is simple, practical and quick to get started, with good usability. There are a lot of high-quality projects and excellent developers on it.</text>
+    </view>
+  </view>
+</view>
