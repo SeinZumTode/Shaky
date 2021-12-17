@@ -1,0 +1,26 @@
+<view>
+  <!-- 背景 -->
+<view class="background">
+</view>
+
+</view> 
+<!-- logo -->
+<view class="container">
+<image src="https://7368-shaky-2gd38t77a0797611-1308369320.tcb.qcloud.la/fanse.png?sign=fb4ed0b02b5dcb33a64e8d7dee070630&t=1638175190" class='logo' animation="{{animationData}}"
+   bindtap='refreshList'>
+</image>
+</view>
+
+<!-- text -->
+<view class="text">
+<text>Click here to log in</text>
+</view>
+
+ <!-- button -->
+ <view>
+  <button class="btn" bindtap="nextPage"  style="width:90rpx" >
+  <text class="log">→</text></button>
+  
+</view>
+
+

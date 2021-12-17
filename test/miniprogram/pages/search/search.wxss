@@ -1,0 +1,47 @@
+.head-bg{
+  width: 750rpx;
+  height: 1580rpx;
+  background-image: url('https://7368-shaky-2gd38t77a0797611-1308369320.tcb.qcloud.la/%E8%83%8C%E6%99%AF.png?sign=cd678522f78f5089a89e46d31169920d&t=1637154201.tcb.qcloud.la/head_bg.png');
+  background-size: 100% 100%;
+}
+
+.fontStyle{
+  color: #D3D3D3;
+  font-size: 18px;
+  margin-top: 40rpx;
+  margin-left: 25rpx;
+}
+
+#btn{
+  height: 90rpx;
+  color: rgb(0, 0, 0);
+  font-size: 30rpx ;
+  background-color: white ;
+  margin-left: 25rpx;
+  border-radius: 45rpx;
+  margin-top: 50rpx;
+}
+
+.fire1{
+  width: 50rpx;
+  height: 50rpx;
+  left: 350rpx;
+  top:340rpx;
+  position:absolute;
+}
+
+.fire2{
+  width: 50rpx;
+  height: 50rpx;
+  left: 450rpx;
+  top:480rpx;
+  position:absolute;
+}
+
+.fire3{
+  width: 50rpx;
+  height: 50rpx;
+  left: 550rpx;
+  top:620rpx;
+  position:absolute;
+}

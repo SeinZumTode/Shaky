@@ -1,0 +1,45 @@
+/**index.wxss**/
+
+.head-bg{
+  width: 750rpx;
+  height: 1450rpx;
+  background-image: url('https://7368-shaky-2gd38t77a0797611-1308369320.tcb.qcloud.la/QQ%E5%9B%BE%E7%89%8720211117213012.jpg?sign=c7147b7be361638127b09897331408fe&t=1637161666.tcb.qcloud.la/head_bg.png');
+  background-size: 100% 200%;
+}
+
+.fontStyle{
+  font-family: cursive;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+}
+.csdn{
+  font-size: 30px;
+  color: floralwhite;
+  font-weight: bold; 
+  font-family: 'Arial';
+  position:fixed;
+  left: 30px;
+  top: 80px;
+  
+}
+
+.back{
+  font-size: 20px;
+  color:floralwhite;
+  font-family: 'Arial';
+  position:fixed;
+  left: 30px;
+  top: 30px;
+}
+#btn{
+  height: 100rpx;
+  color: white;
+  font-size: 50rpx ;
+  font-family: '宋体';
+  background: none !important;
+  position:fixed;
+  left:-110rpx;
+  top:20px;
+
+}

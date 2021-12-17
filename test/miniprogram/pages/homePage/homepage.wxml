@@ -1,0 +1,53 @@
+
+<view class="backpage" >
+<tabbar></tabbar>
+  <!--标题-->>
+ <view class="title">
+  <text>Introduction to Open Source</text> 
+  </view>
+
+  <!--小花-->
+  <view class = "flower">
+  </view>
+
+  <view class="introduction1">
+  <dl>
+  <!--github介绍-->
+  <dt>
+  <image  bindtap="entergithubIntro" mode="widthFix" src="https://7368-shaky-2gd38t77a0797611-1308369320.tcb.qcloud.la/github.png?sign=7432359e13e74a464ea2a36a296f22a6&t=1637238797"/>
+  <!-- <view class = "GithubIntro"/> -->
+    <text style="color: white;">Github</text>
+  </dt>
+<dt>
+<image mode="widthFix" bindtap="intoCodeChina" src = "https://7368-shaky-2gd38t77a0797611-1308369320.tcb.qcloud.la/monthly%20magazine.png?sign=f8e2876a456431ad3a38dd2a116b5c99&t=1637335513"/>
+  <text style="color: white;">Code China</text>
+</dt>
+<dt>
+<image mode="widthFix" src = "https://7368-shaky-2gd38t77a0797611-1308369320.tcb.qcloud.la/source%20forge.jpg?sign=b4808818b169be8a604b6e6ba0e316fa&t=1637335732"/>
+  <text style="color: white;">Sorce forge</text>
+</dt>
+
+  </dl>
+  <!--codechina介绍-->
+  
+  <dl style="margin-left:45rpx;">
+  <dt>
+  <image mode="widthFix" src="https://7368-shaky-2gd38t77a0797611-1308369320.tcb.qcloud.la/monthly%20magazine.png?sign=41e741bd359b8621b4351dc23e9cdeb2&t=1637240044"/>
+  <!-- <view class = "monthlyMag"/> -->
+    <text>Monthly magazine</text>
+  </dt>
+  <dt>
+  <image mode="widthFix" src="https://7368-shaky-2gd38t77a0797611-1308369320.tcb.qcloud.la/OSChina.png?sign=7829838d5a6f103f6fd434242f7dc6ac&t=1637335672"/>
+  <text style="color: white;">OSCCHINA</text>
+  </dt>
+  <dt>
+    <image mode="widthFix" src="https://7368-shaky-2gd38t77a0797611-1308369320.tcb.qcloud.la/Apache.jpg?sign=8099ff0d0066d3d1b76c00c0b7c3e05b&t=1637335776"/>
+    <text style="color: white;">APACHE</text>
+    </dt>
+  </dl>
+  </view>
+</view>
+
+
+
+  

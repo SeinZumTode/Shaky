@@ -1,0 +1,24 @@
+<view>
+  <view class="head-bg" >
+<view class='shaking'>
+  <image src="https://7368-shaky-2gd38t77a0797611-1308369320.tcb.qcloud.la/shaking.png?sign=d4440a77f98df2940550bf690fbcce9d&t=1637418144" class='in-image'   >
+  </image>
+</view>
+<button style="width: 500rpx; " bindtap="gotoPage" id="btn">
+  <image src="https://7368-shaky-2gd38t77a0797611-1308369320.tcb.qcloud.la/search.png?sign=f7dce7ae80edb3d3999ef7b063690cef&t=1637767428">
+  </image>
+  </button>
+<view class="search-bar">
+        <view class="condition" bindtap="showCondition">
+            <view class="select-condition">{{choosedCondition.title}}</view>
+            <view class="trigger {{ conditionVisible ? 'reverse' : ''}}"></view>
+            <cover-view class="option-list" style="height: {{conditionVisible ? '300rpx': '0'}}">
+                <cover-view bindtap="onChnageCondition" data-id="{{item.id}}" class="list-item" wx:for="{{conditionList}}" wx:key="index" wx:for-index="index">
+                    <cover-view class="title">{{item.title}}</cover-view>
+                    <cover-view class="title" wx:if="{{item.select}}">√</cover-view>
+                </cover-view>
+            </cover-view>
+        </view>
+    </view>
+  </view>
+</view>

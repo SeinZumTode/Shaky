@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view>
+  <!-- 头部 -->
+
+  <view class="head-bg" >
+  <view>
+<view class="csdn">CSDN</view>
+<button bindtap="gotoPage" id="btn" disabled="{{isDisabled}}"><text class='dialog-close' decode='true'>&lt;</text></button>
+</view>
+      <!-- 省略无关代码 -->
+  </view>
+</view>
+
+
+

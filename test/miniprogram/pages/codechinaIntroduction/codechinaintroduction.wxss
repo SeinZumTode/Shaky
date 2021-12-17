@@ -1,0 +1,48 @@
+page{
+    width: 100%;
+    height: auto;
+    overflow-y: scroll;
+
+}
+.backpage{
+    display: flex;
+    flex-direction:column;
+    justify-content : center;
+    align-content: flex-start; 
+    height: 100%;
+    width: 100%;
+    background-image: url('https://7368-shaky-2gd38t77a0797611-1308369320.tcb.qcloud.la/github%E4%BB%8B%E7%BB%8D%E8%83%8C%E6%99%AF.jpg?sign=54ec224a2a9763e0b39d778f16c8753d&t=1637324054');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.part1{
+    font-size: 40rpx;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+    margin-top: 0rpx;
+    float:left;
+    padding-left: 30rpx;
+    padding-right: 30rpx;
+}
+
+.title{
+    width: 1700rpx;
+    height: 60px;
+    font-size: 45rpx;
+    font-weight: bold;
+    margin-top:40rpx;
+    color: rgb(0, 0, 0);
+    padding-left: 30rpx;
+}
+
+.picture{
+    width: 700rpx;
+    height: 350rpx;
+    margin-left: calc(50% - 350rpx);
+    margin-top: 30rpx;
+}
+
+.picture image{
+    width: 700rpx;
+    height: auto;
+}

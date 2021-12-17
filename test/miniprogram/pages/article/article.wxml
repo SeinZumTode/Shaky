@@ -1,0 +1,16 @@
+<view>
+  <view class="head-bg" >
+  <view class='shaking'>
+  <image src="https://7368-shaky-2gd38t77a0797611-1308369320.tcb.qcloud.la/shaking.png?sign=d4440a77f98df2940550bf690fbcce9d&t=1637418144" class='in-image'   >
+  </image>
+</view>
+<view class='article'>
+  <image src="https://7368-shaky-2gd38t77a0797611-1308369320.tcb.qcloud.la/QQ%E5%9B%BE%E7%89%8720211125091154.jpg?sign=1742f13c9088ebd991151111d1be9e53&t=1637802763" class='in-image'   >
+  </image>
+</view>
+<view class='black-heart'>
+  <image bindtap="clickHeart" class="{{class}}" src="{{class== 'heart'?'../../../../images/heart.png' : '../../../../images/heart-active.png'}}">
+</image>
+</view>
+</view>
+</view>

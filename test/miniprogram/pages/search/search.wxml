@@ -1,0 +1,14 @@
+<view>
+<!--设置背景图片-->
+  <view class="head-bg" >
+<searchbar placeholder="Search keywords" bind:handleSearch="handleSearch"></searchbar>
+<view class="fontStyle">
+  <view>Popular search: </view>
+  <!-- 加仨button -->
+  </view>
+  <button style="width:300rpx" id="btn" bindtap="gotoPage1">java面试大全</button><image src="https://7368-shaky-2gd38t77a0797611-1308369320.tcb.qcloud.la/%E5%B0%8F%E7%81%AB%E8%8B%97.png?sign=3b848392a7a4aea7d0c39ab142f82109&t=1637213343" class="fire1" mode="aspectFill"></image>
+  <button style="width:400rpx" id="btn" bindtap="gotoPage2">深度学习卷积神经网络</button><image src="https://7368-shaky-2gd38t77a0797611-1308369320.tcb.qcloud.la/%E5%B0%8F%E7%81%AB%E8%8B%97.png?sign=3b848392a7a4aea7d0c39ab142f82109&t=1637213343" class="fire2" mode="aspectFill"></image>
+  <button style="width:500rpx" id="btn" bindtap="gotoPage3">详细SpringBoot教程之入门</button><image src="https://7368-shaky-2gd38t77a0797611-1308369320.tcb.qcloud.la/%E5%B0%8F%E7%81%AB%E8%8B%97.png?sign=3b848392a7a4aea7d0c39ab142f82109&t=1637213343" class="fire3" mode="aspectFill"></image>
+  
+</view>
+</view>

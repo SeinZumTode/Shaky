@@ -1,0 +1,35 @@
+/* components/tabbar/tabbar.wxss */
+.tabar image{
+    height: 70rpx;
+    width:70rpx;
+}
+.tabar{
+    height: 120rpx;
+    width:100%;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.tabar dt{
+    margin-top: 25rpx;
+    height: 70rpx;
+    width: 60rpx;
+    float: left;
+    margin-left: 150rpx;
+}
+.tabar dt:nth-child(1){
+    margin-left: calc(50% - 275rpx);
+}
+.tabar dt:nth-child(3){
+    height: 65rpx;
+    width: 65rpx;
+    margin-top: 25rpx;
+    border: 5rpx #000000 solid;
+    border-radius: 70rpx;
+}
+
+#txx{
+    height: 90rpx;
+    width: 100rpx !important;
+}

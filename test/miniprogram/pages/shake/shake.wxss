@@ -1,0 +1,101 @@
+.head-bg{
+  width: 750rpx;
+  height: 1449rpx;
+  background-image: url('https://7368-shaky-2gd38t77a0797611-1308369320.tcb.qcloud.la/%E8%83%8C%E6%99%AF.jpg?sign=d931fba4eaf2b39d6c624525993f0f48&t=1637239800');
+  background-size: 100% 100%;
+}
+.search{
+ display:flex;                    
+ height: 260px;
+ width: 400px;
+ justify-content: center;        
+ align-items:center;
+ position: absolute;
+}
+#btn{
+  padding: 0;
+  background-color: transparent;   /*按钮透明*/  
+  border:none;				/*设置按钮边框*/
+  height: 250px;
+  top: 120px;
+  left: 70px;
+  position: absolute;
+}
+button image{
+  width: 400rpx;
+  height: 60rpx;
+}
+.shaking{
+  display:flex;                    
+  height: 1125px;
+  width: 400px;
+  justify-content: center;        
+  align-items:center;
+  position:fixed;
+}
+.shaking image { 
+  width:100rpx;
+  height:150rpx;
+}
+/* search */
+.search-bar .condition {
+  width: 400rpx;
+  height: 60rpx;
+  /* border-radius: 30rpx; */
+  background: #f1eaea;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  border-top:1rpx solid #494949;
+  border-bottom:1rpx solid #494949;
+  border-right:1rpx solid #494949;
+  border-left:1rpx solid #494949;
+  padding: 0 20rpx;
+  position: absolute;
+  top: 220px;
+  left: 95px;
+}
+.search-bar .condition .option-list {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  left: 0;
+  top: 60rpx;
+  box-sizing: border-box;
+  background: #f4f4f4;
+  border-left :1px solid #494949;
+  border-right:1px solid #494949;
+  padding: 0rpx 20rpx;
+  margin-top: 4rpx;
+  border-radius: 6rpx;
+}
+.option-list .list-item {
+  color: #0a0a0a;
+  font-size: 24rpx;
+  height: 52rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search-bar .condition .select-condition {
+  color: #707070;
+  font-size: 24rpx;
+}
+.search-bar .condition .trigger {
+  width: 0;
+  height: 0;
+  border: 12rpx solid transparent;
+  border-top: 15rpx solid #707070;
+  position: relative;
+  top: 8rpx;
+  transform: rotate(0deg);
+  transform-origin: center 7rpx;
+  transition: transform 0.4s;
+}
+.search-bar .condition .trigger.reverse {
+  transform: rotate(180deg);
+  transform-origin: center 7rpx;
+  transition: transform 0.4s;
+}
+/* 下拉框结束 */

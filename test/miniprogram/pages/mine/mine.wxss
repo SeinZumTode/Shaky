@@ -1,0 +1,123 @@
+/* pages/mine/mine.wxss */
+.head-bg{
+    width: 750rpx;
+    height: 1380rpx;
+    background-image: url('https://7368-shaky-2gd38t77a0797611-1308369320.tcb.qcloud.la/wd-bg.jpg?sign=8719dbf01e409bb55c568b8c66f20bbe&t=1637239046.tcb.qcloud.la/head_bg.png');
+    background-size: 100% 100%;
+  }
+
+  /*浏览记录*/  
+#btn{
+  padding: 0;
+  background-color: transparent;   /*按钮透明*/  
+  border:none;				/*设置按钮边框*/
+  height: 120rpx;
+  margin-top: 62%;
+  margin-left: -6rpx;
+  position: absolute;
+  
+}
+.goodbutton1 {
+  position: fixed;
+  top: 290px;
+  left: 20px;
+  font-size: 35rpx ; 
+  font-family: 'Candara Light';
+  font-weight: bold;
+  color:rgb(19, 17, 37);
+  width: 200px !important;
+ 
+}
+
+/*反馈箱*/
+.Helpfeedback{
+  position: fixed;
+  top: 290px;
+  left: 230px;
+  font-size: 35rpx ; 
+  font-family: 'Candara Light';
+  font-weight: bold;
+  color:rgb(19, 17, 37);
+  
+}
+#btn-HFB {
+  padding: 0;
+  background-color: transparent;   /*按钮透明*/  
+  border:none;				/*设置按钮边框*/
+  height: 130rpx;
+  margin-top: 62%;
+  margin-left: 380rpx;
+  position: absolute;
+}
+
+button image{
+    height: 100rpx;
+    width: 100rpx;
+  }
+  
+.touxiang{
+    position:absolute;
+    top:70px;
+    left: 240px;
+    width: 30%;
+    height: 100px;
+  }
+
+.wenzi1{
+    font-size: 30px;
+    color: rgb(8, 8, 8); 
+    font-family: '微雅软黑';
+    position:fixed;
+    left: 20px;
+    top: 110px;
+  }
+
+.wenzi2{
+    font-size: 15px;
+    color: rgb(85, 82, 82); 
+    font-family: 'Arial';
+    position:fixed;
+    left: 20px;
+    top: 160px;
+  }
+  
+.hover {
+    border-radius: 120rpx;
+    background-color:  rgb(212, 29, 29);
+}
+
+/*my collection*/
+.goodbutton {
+  position:absolute;
+  top: 340px;
+  left: 20px;
+  font-size: 30rpx ; 
+  background-color: rgb(5, 5, 5);
+  height: 45px;
+  line-height: 50rpx;
+  width: 150px !important;
+  color: white;
+  border-radius: 120rpx;
+}
+
+
+/*logout*/
+#btn-logout{
+  position: fixed;
+  top: 605px;
+  left: 220px;
+  color:rgb(252, 252, 255);
+  width: 200px !important;
+  background: none !important;
+}
+
+.logout {
+  position: fixed;
+  top: 660px;
+  left: 290px;
+  font-size: 35rpx ; 
+  font-family: 'Candara Light';
+  font-weight: bold;
+  color:rgb(252, 252, 255);
+  
+}

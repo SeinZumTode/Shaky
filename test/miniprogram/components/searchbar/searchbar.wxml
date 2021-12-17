@@ -1,0 +1,24 @@
+<!--搜索.wxml-->
+
+<!--搜索框-->
+<view class="searchbar">
+  <view class="content">
+    <image src="../../assets/images/search.png" class="search-icon">
+    </image>
+    <input 
+      bindinput="handleInput"
+      bindconfirm="handleConfirm"
+      type="text"
+      value="{{inputValue}}" 
+      placeholder="{{placeholder}}" 
+      class="input"
+      confirm-type="search"
+    ></input>
+    <image
+     wx:if="{{inputValue}}" 
+     bindtap="handleDeleteClick"
+     src="../../assets/images/delete-circle.png" 
+     class="delete-icon"
+    ></image>
+  </view>
+</view>

@@ -1,0 +1,35 @@
+<!--pages/feedback/feedback.wxml-->
+
+
+<view>
+<view class="text1">
+<text> Here is the feedback mailbox, 
+if you have any suggestions 
+for improvement, 
+please email us.</text>
+</view>
+</view>
+<view>
+    
+<view class="text2">
+<text> Contact number: 18850926161
+ Email address: 1009462208@qq.com
+ Wechat：yyx1009462208
+</text>
+</view>
+</view><view class="heng2"></view>
+<view class="text3">
+<text>Thank you for using our applet!
+</text>
+</view>
+<view>
+<view>
+<view class="heng1">
+
+</view>
+</view>
+<!--设置背景图片-->
+  <view class="head-bg" >
+</view>
+</view>
+text-decoration: underline;

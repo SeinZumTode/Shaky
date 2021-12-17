@@ -1,0 +1,47 @@
+<!--pages/mine/mine.wxml-->
+<view class="head-bg" >
+<tabbar></tabbar>
+
+<!--我的眼睛-->
+<view> 
+<text class = "goodbutton1">Browsing history</text>
+<button  bindtap="gotoPage1" id="btn" >
+<image src="https://7368-shaky-2gd38t77a0797611-1308369320.tcb.qcloud.la/wd-eye.png?sign=b8e5147a3da674d78c2648fef128e3ba&t=1637477253"></image> 
+</button>
+</view>
+
+
+<!--右上角我的头像-->
+<view>
+<image class = "touxiang" src="https://7368-shaky-2gd38t77a0797611-1308369320.tcb.qcloud.la/wd-tx.png?sign=15cd7949951dbc30a07a0a4a50fb4166&t=1637504773" > 
+</image>
+</view>
+
+<!--不要靠近男人会变得不幸-->
+<view>
+<text class="wenzi1">不要靠近男人</text>    <!--显示用户账号名字-->
+<text class="wenzi2">zhiyaoxuebusi, jiuwangsilixue.</text>
+</view>
+
+
+<!--My collection按钮-->
+<view>
+  <button bindtap="gotoPage" class="goodbutton"  hover-class="hover">My collection</button>
+</view>
+
+<!--help feedback按钮-->
+<view>
+<text class="Helpfeedback">Help feedback</text>
+  <button bindtap="gotoPage2" id= "btn-HFB">
+  <image src="https://7368-shaky-2gd38t77a0797611-1308369320.tcb.qcloud.la/wd-help%20feedback.png?sign=d4ea0f3d0f1bcf6aeab8b8020a3e2f4b&t=1637503878"></image>
+  </button>
+</view>
+
+<!--logout按钮-->
+<view>
+  <text class="logout" >log out</text>
+  <button  bindtap="gotoPage3" id="btn-logout" >
+<image src="https://7368-shaky-2gd38t77a0797611-1308369320.tcb.qcloud.la/log-out.png?sign=1013210364bcfce495d8ccc93476c153&t=1637501694"></image> 
+</button>
+</view>
+</view>

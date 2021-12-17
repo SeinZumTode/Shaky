@@ -1,0 +1,18 @@
+<!--components/tabbar/tabbar.wxml-->
+<view class="tabar">
+   <dl>
+   <!--home键-->
+    <dt>
+    <image bindtap="gotohomePage" src="https://7368-shaky-2gd38t77a0797611-1308369320.tcb.qcloud.la/%E6%88%BF%E5%AD%90%EF%BC%88%E5%AF%BC%E8%88%AA%E6%A0%8F%E5%B0%8F%E6%A0%87%EF%BC%89.png?sign=c8d8187c83321bacd0ea6cc33a6e0d1d&t=1637164849"/>
+    </dt>
+    <dt>
+    <image bindtap="gotoshakePage" src="https://7368-shaky-2gd38t77a0797611-1308369320.tcb.qcloud.la/%E5%B0%8F%E6%89%8B%EF%BC%88%E5%AF%BC%E8%88%AA%E6%A0%8F%E5%B0%8F%E6%A0%87%EF%BC%89.png?sign=b8dc6d136ad4108b3771c522343d4d9b&t=1637174218"/>
+    </dt>
+
+    <dt>
+    <image bindtap="gotominePage" id = "tx" src="https://7368-shaky-2gd38t77a0797611-1308369320.tcb.qcloud.la/wd-tx.png?sign=fd8004e940be2fe2ceaea3cbf91f6e20&t=1637501015"></image>
+    </dt>
+   
+    </dl>
+   </view>
+
